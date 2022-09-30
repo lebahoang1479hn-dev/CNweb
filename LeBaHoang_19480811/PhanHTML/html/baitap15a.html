@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>baitap15a</title>
+    <style>
+         *{
+            padding: 0;
+            margin: auto;
+        }
+        #border{
+            border: 1px solid black;
+            width: 40%;
+            height: 400px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body><br>
+    <div id="border">
+        <h1>Contact Us</h1>  
+        <form action="" >
+            <fieldset>
+                <legend>Your message :</legend> 
+                <div id="a">
+                <label for="fto">To</label>
+                <input type="text" id="fto" name="to" size="10" maxlength="20"><br>
+                </div>
+                <label for="femail">Your email</label>
+                <input type="text" id="femail" readonly="readonly" name="Email" size="10" maxlength="20"><br>
+                <label for="fMess">Message  </label>
+                <textarea name="" id="fMess" cols="40" rows="9" style="vertical-align: middle;"></textarea><br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>How you found us :</legend>
+                <label for="#">How did you here of us   </label>
+                <select name="" id="">
+                <option value="s1">Google </option>
+                <option value="s2">Facebook </option>
+                <option value="s3">Twiter</option>
+                </select> <br><br>
+                <label for="#">Newsletter </label> 
+                <input type="checkbox" name="#">Ensure this box is checked <br><br>
+            </fieldset>
+                <input type="submit" value="Send Message">
+            
+        </form>
+    </div>
+    
+</body>

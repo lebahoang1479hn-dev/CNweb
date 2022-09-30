@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: auto;
+        }
+        body{
+            font-size: 26px;
+            background-image: url(../img/images.jpg);
+            
+        }
+        #wapper{
+            height: 800px;
+            width: 1089px;
+            background-color: antiquewhite;
+            border: 1px solid black;
+        }
+        .header{
+            height: 100px;
+            background-color: gray;
+        }
+        .Menu{
+            height:50px ;
+            width: 100%;
+        }
+        .menu li{
+            float:left;
+            text-indent: 20px;
+            width: 200px;
+            line-height: 50px;
+            list-style: none;
+            position: relative;
+            /* margin-left: 10px; */
+        }
+        li a{
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .menu li:hover{
+            background-color: blue;
+        }
+        li:hover>a{
+            font-weight: bold;
+            color: yellow;
+        }
+        .menu li .sub-menu{
+            display: none;
+            position: absolute;
+            
+        }
+        .menu li:hover>.sub-menu{
+            display: block;
+            background-color: violet;
+        }
+        .menu li .sub-menu li .sub-menu{
+            
+            /* position: absolute; */
+        }
+        .menu li .sub-menu li .sub-menu li:hover>.sub-menu{
+            top: 0;
+            left: 300px;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="wapper">
+        <div class="header"></div>
+        <div class="Menu">
+            <ul class="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">SanPham</a>
+                    <ul class="sub-menu">
+                        <li><a href="">ASUS</a></li>
+                        <li><a href="">MAC</a>
+                            <ul class="sub-menu">
+                                <li><a href="">MAC1990</a></li>
+                                <li><a href="">MAC2002</a></li>
+                                <li><a href="">MAC2022</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">DELL</a></li>
+                    </ul>
+                </li>
+                <li><a href="">PhuTung</a></li>
+                <li><a href="">LienHe</a></li>
+                <li><a href="">GioiThieu</a></li>
+            </ul>
+        </div>
+        <div class="nav">
+            
+        </div>
+        <div></div>
+        
+    </div>
+    
+</body>
+</html>

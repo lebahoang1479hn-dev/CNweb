@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>baitap17</title>
+    <style>
+        *{
+            padding: 0;
+            margin: auto;
+        }
+        #border{
+            border: 1px solid black;
+            width: 50%;
+            height: 680px;
+            padding: 5px;
+            background-color:darkorange;
+           
+        }
+        ol li{
+            margin-left:25px;
+        }
+    </style>
+</head>
+<body><br>
+    <div id="border">
+        <form action="">
+            <table >
+                <h1 align="center">Survey Form</h2>
+                <p>If you are interested in purchasing one or more of our products, before ordering please complete some or all of the following 
+                survey for our marketing department. Answering any question is optional, and all information will be kept trictly confidential.
+                Thank you very much for your time</p>
+                <ol type="1">
+                <li>
+                    <label for="f1">What is your name ?</label><br>
+                    <input type="text" name="" id="f1" width="100" ><br><br>
+                </li>
+                <li>
+                    <label for="f2">What is your date of birth ?</label><br>
+                    <label for="m1">Mouth :</label>
+                    <select name="" id="">
+            
+                        <option value="t1">January </option>
+                        <option value="t2">February </option>
+                        <option value="t3">March </option>
+                        <option value="t4">April </option>
+                        <option value="t5">May </option>
+                        <option value="t6">June </option>
+                        <option value="t7">July </option>
+                        <option value="t8">August </option>
+                        <option value="t9">September </option>
+                        <option value="t10">October </option>
+                        <option value="t11">November </option>
+                        <option value="t12">December </option>
+                    </select>
+                    <label for="d1">Date:</label>
+                    <select name="" id="">
+                        <option value="d1">1</option>
+                        <option value="d2">2</option>
+                        <option value="d3">3</option>
+                        <option value="d4">4</option>
+                    </select>
+                    <label for="fyear">Year :</label>
+                    <input type="text" id="fyear" name="year" size="10" maxlength="20" values=""><br><br>
+                </li>
+                <li>
+                    <label for="f3">what is your mailing address (if you would like to have a hard copy of our catalog sent to you )?</label><br>
+                    <textarea name="" id= f3"" cols="28" rows="5"></textarea>
+
+                </li>
+                <li>
+                    <label for="f4">What is your email address?</label><br>
+                    <input type="text" name="" id="f4" size="10" maxlength="20"><br><br>
+                </li>
+                <li>
+                    <label for="f5">Have you viewed our online product catalog?</label><br>
+                    <input type="radio" id="fyes" name="" size="5" maxlength="10"> <label for="fyes">Yes</label>
+                    <input type="radio" id="fno" name="" size="5" maxlength="10"> <label for="fno">No</label>
+                </li>
+                <li>
+                    <label for="f6">If so, what product, beside the one you are ordering, might you be interested in purchasing in the future?</label><br>
+                    <input type="checkbox" id="chek1" > <label for="chek1">VCR</label><br>
+                    <input type="checkbox" id="chek2" > <label for="chek2">Big Screen TV</label><br>
+                    <input type="checkbox" id="chek3" > <label for="chek3">Audio Epuipment</label><br>
+                    <input type="checkbox" id="chek4" > <label for="chek4">Video Equipment</label><br>
+                    <input type="checkbox" id="chek5" > <label for="chek5">Camera Equipment</label><br>
+                    <input type="checkbox" id="chek6" > <label for="chek6">Other</label> <input type="text" name="other" id="chek6" size="10" maxlength="20" value="Please List">
+
+                </li>
+                <li>
+                    <label for="fdo">Do you have any questions, comment or suggestions before proceeding to the Order Form? </label><br>
+                    <textarea name="do" id="fdo" cols="30" rows="5" placeholder="Your Input :"></textarea>
+                </li>
+                <span id="center">
+                    <input type="submit" value="Send Form" >
+                    <input type="submit" value="Clear Form" >
+                </span>
+            </ol>
+            
+
+            </table>
+        </form>
+    </div>
+</body>
+</html>
